@@ -1,0 +1,44 @@
+﻿@model MVC_CORE_CRUD.Models.Units
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h3>Edit Units</h3>
+
+ 
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="UnitID" class="control-label"></label>
+                <input asp-for="UnitID" class="form-control"  readonly="readonly"/>
+                <span asp-validation-for="UnitID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Unit_Name" class="control-label"></label>
+                <input asp-for="Unit_Name" class="form-control" />
+                <span asp-validation-for="Unit_Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Status" class="control-label"></label>
+                <input asp-for="Status" class="form-control" />
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Update" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>
+<br />
+<div>
+    <a asp-action="Index" style="font-size:medium">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

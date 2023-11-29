@@ -1,4 +1,5 @@
 ﻿using DAL;
+using Microsoft.CodeAnalysis.FlowAnalysis.DataFlow;
 using Microsoft.VisualBasic;
 using System.ComponentModel.DataAnnotations;
 using System.Data;
@@ -10,6 +11,7 @@ namespace MVC_CORE_CRUD.Models
     {
 
         [Key]
+        [Display(Name = "Unit ID")]
         public int UnitID { get; set; }
         [Display(Name = "Unit Name")]
         public string Unit_Name { get; set; }
@@ -51,6 +53,65 @@ namespace MVC_CORE_CRUD.Models
 
                 return obj_List;
 
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
+        public bool AddToDB()
+        {
+            try
+            {
+                DAL_Units obj_DAL = new DAL_Units();
+               if( obj_DAL.AddToDB(Unit_Name,Status)>0)
+                {
+                    return true;
+                }
+                return false; 
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
+        public bool UpdateToDB()
+        {
+            try
+            {
+                DAL_Units obj_DAL = new DAL_Units();
+                if (obj_DAL.UpdateToDB(Unit_Name, Status,UnitID))
+                {
+                    return true;
+                }
+                return false;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
+        public Units GetfromDB(int ID)
+        {
+            Units obj = new Units();
+            try
+            {
+                DAL_Units obj_Dal = new DAL_Units();
+                DataTable dt = obj_Dal.GetFromDB(ID);
+                if (dt.Rows.Count > 0)
+                {
+                    obj.Unit_Name = dt.Rows[0]["Unit_Name"].ToString();
+                    obj.UnitID =int.Parse( dt.Rows[0]["UnitID"].ToString());
+                    obj.Status =  dt.Rows[0]["Status"].ToString()  ;
+                }
+
+                return obj;
             }
             catch (Exception ex)
             {
