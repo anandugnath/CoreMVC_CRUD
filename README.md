@@ -20,8 +20,9 @@ In Project, we will learn CRUD Operations in ASP.NET Core 6.0. We will use Store
 <br/>
 <b>Startup.cs:</b>  It contains the ConfigureServices() and Configure methods. As the name implies ConfigureServices() method configures all the services which are going to used by the application. Configure method take care of all the request processing pipelines.
 <br/>
-<b>Database </b>
-https://github.com/anandugnath/CoreMVC_CRUD/blob/main/MVC_Core_CRUD/MVC_CORE_CRUD/Database/DB.sql
+<b>Download Database </b>
+
+<a href="https://github.com/anandugnath/CoreMVC_CRUD/blob/main/MVC_Core_CRUD/MVC_CORE_CRUD/Database/DB.sql">Download</a>
 <br/>
 <b>2.</b> Install All Necessary Packages From NuGet
 </br>
