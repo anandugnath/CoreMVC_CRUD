@@ -25,7 +25,7 @@ In Project, we will learn CRUD Operations in ASP.NET Core 6.0. We will use Store
 <kbd>[Download](https://github.com/anandugnath/CoreMVC_CRUD/blob/main/MVC_Core_CRUD/MVC_CORE_CRUD/Database/DB.sql)</kbd>
  
 <br/>
-<b>2.</b> Install All Necessary Packages From NuGet
+<h3> Install All Necessary Packages From NuGet </h3>h3> 
 </br>
 <h3>Microsoft ExtensionsConfiguration</h3> 
 <kbd>[Download](https://github.com/anandugnath/CoreMVC_CRUD/blob/main/MVC_Core_CRUD/MVC_CORE_CRUD/Database/DB.sql)</kbd>
