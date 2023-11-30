@@ -27,7 +27,7 @@ In Project, we will learn CRUD Operations in ASP.NET Core 6.0. We will use Store
 <br/>
 <b>2.</b> Install All Necessary Packages From NuGet
 </br>
-<kbd>[Microsoft.Extensions.Configuration](https://www.nuget.org/packages/Microsoft.Extensions.Configuration/8.0.0?_src=template)</kbd>
+<kbd>[Microsoft ExtensionsConfiguration](https://www.nuget.org/packages/Microsoft.Extensions.Configuration/8.0.0?_src=template)</kbd>
 
 <br/>
 https://www.nuget.org/packages/Microsoft.Extensions.Configuration.Json/8.0.0?_src=template
