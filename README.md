@@ -20,7 +20,15 @@ In Project, we will learn CRUD Operations in ASP.NET Core 6.0. We will use Store
 <br/>
 <b>Startup.cs:</b>  It contains the ConfigureServices() and Configure methods. As the name implies ConfigureServices() method configures all the services which are going to used by the application. Configure method take care of all the request processing pipelines.
 <br/>
-<b>Step 4.</b> Install All Necessary Packages From NuGet
+<b>2.</b> Install All Necessary Packages From NuGet
+</br>
+https://www.nuget.org/packages/Microsoft.Extensions.Configuration/8.0.0?_src=template
+<br/>
+https://www.nuget.org/packages/Microsoft.Extensions.Configuration.Json/8.0.0?_src=template
+<br/>
+https://www.nuget.org/packages/System.Configuration.ConfigurationManager/8.0.0?_src=template
+<br/>
+https://www.nuget.org/packages/Newtonsoft.Json/13.0.3?_src=template
 <br/>
 
 <br/>
