@@ -29,7 +29,6 @@ In Project, we will learn CRUD Operations in ASP.NET Core 6.0. We will use Store
 <h3> Install All Necessary Packages From NuGet </h3>
 </br>
 
-
 https://www.nuget.org/packages/Microsoft.Extensions.Configuration/8.0.0?_src=template
 <br/>
 https://www.nuget.org/packages/Microsoft.Extensions.Configuration.Json/8.0.0?_src=template
@@ -38,7 +37,6 @@ https://www.nuget.org/packages/System.Configuration.ConfigurationManager/8.0.0?_
 <br/>
 https://www.nuget.org/packages/Newtonsoft.Json/13.0.3?_src=template
 <br/>
-
 <br/>
 <br/>
 <h2>Unit Index View</h2>
