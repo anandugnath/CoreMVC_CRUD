@@ -35,3 +35,10 @@ https://www.nuget.org/packages/Newtonsoft.Json/13.0.3?_src=template
 <br/>
 <h2>Unit Index View</h2>
 <a href="https://www.buymeacoffee.com/anandugnath" target="_blank"><img src="https://github.com/anandugnath/CoreMVC_CRUD/blob/main/Unit_Creation.png" alt="Buy Me A Coffee" ></a>
+<br/>
+<h2>Create Page</h2>
+<a href="https://www.buymeacoffee.com/anandugnath" target="_blank"><img src="https://github.com/anandugnath/CoreMVC_CRUD/blob/main/Create_Unit.png" alt="Buy Me A Coffee" ></a>
+<br>
+
+<h2>Edit Page</h2>
+<a href="https://www.buymeacoffee.com/anandugnath" target="_blank"><img src="https://github.com/anandugnath/CoreMVC_CRUD/blob/main/Edit_Unit.png" alt="Buy Me A Coffee" ></a>
