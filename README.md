@@ -3,7 +3,7 @@
 <h2>1.Introduction</h2>
 In Project, we will learn CRUD Operations in ASP.NET Core 3.1. We will use StoredProcedure to interact with sql-server database and for performing CRUD operations.
 <br/>
-
+<br/>
 <b>Dependencies:</b> It contains all the installed NuGet packages. We can manage the NuGet packages by right clicking on it.
 <br/>
 <b>Properties:</b> It contains launchSettings.json file which has visual studio profiles, iis and debug setting.
