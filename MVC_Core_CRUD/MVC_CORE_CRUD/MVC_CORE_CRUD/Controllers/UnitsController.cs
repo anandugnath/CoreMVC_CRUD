@@ -20,7 +20,8 @@ namespace MVC_CORE_CRUD.Controllers
         // GET: UnitsController/Details/5
         public ActionResult Details(int id)
         {
-            return View();
+            Units obj_units = new Units();
+            return View(obj_units.GetfromDB(id));
         }
 
         // GET: UnitsController/Create
@@ -83,19 +84,27 @@ namespace MVC_CORE_CRUD.Controllers
         }
 
         // GET: UnitsController/Delete/5
-        public ActionResult Delete(int id)
+        public ActionResult Delete1(int id)
         {
             return View();
         }
 
         // POST: UnitsController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+      
+        public ActionResult Delete(int id)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                Units obj_units = new Units();
+
+                if (obj_units.DeleteFromDB(id))
+                {
+                    return RedirectToAction(nameof(Index));
+                }
+                else
+                {
+                    return RedirectToAction(nameof(ErrorViewModel));
+                }
             }
             catch
             {

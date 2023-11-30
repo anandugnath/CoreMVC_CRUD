@@ -133,6 +133,36 @@ namespace DAL
                 throw;
             }
         }
+
+
+        public bool DeleteFromDB(int UnitID)
+        {
+
+            try
+            {
+                SqlConnection con = new SqlConnection(strConnect);
+                SqlCommand cmd = new SqlCommand();
+
+                cmd.Connection = con;
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "sp_Units_Delete_FromDB"; 
+                cmd.Parameters.AddWithValue("@UnitID", UnitID);
+                if (con.State == ConnectionState.Closed) { con.Open(); }
+                if (cmd.ExecuteNonQuery() > 0)
+                {
+                    return true;
+                }
+                return false;
+
+
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
     }
 }
 

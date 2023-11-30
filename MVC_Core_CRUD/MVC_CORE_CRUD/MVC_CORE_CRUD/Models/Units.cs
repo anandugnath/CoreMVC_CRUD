@@ -119,5 +119,24 @@ namespace MVC_CORE_CRUD.Models
                 throw ex;
             }
         }
+
+
+        public bool DeleteFromDB(int id)
+        {
+            try
+            {
+                DAL_Units obj_DAL = new DAL_Units();
+                if (obj_DAL.DeleteFromDB(id))
+                {
+                    return true;
+                }
+                return false;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
     }
 }
