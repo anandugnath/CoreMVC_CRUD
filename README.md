@@ -16,6 +16,7 @@ In Project, we will learn CRUD Operations in ASP.NET Core 6.0. We will use Store
 <b>Views:</b> We can add views for certain actions methods inside view folder. There will be seperate folder for each view we create inside Views folder.
 <br/>
 <b>appsettings.json:</b> It is the application configuration file which is used to store configuration settings i.e connections strings of the database, global variables etc. 
+</br>
 <b>Program.cs :</b> Initially asp.net core application starts as a console application. In the Main method it calls the CreateWebHostBuilder() method that configures the asp.net core setting and launch it as asp.net core application.
 <br/>
 <b>Startup.cs:</b>  It contains the ConfigureServices() and Configure methods. As the name implies ConfigureServices() method configures all the services which are going to used by the application. Configure method take care of all the request processing pipelines.
@@ -30,7 +31,6 @@ In Project, we will learn CRUD Operations in ASP.NET Core 6.0. We will use Store
 
 
 https://www.nuget.org/packages/Microsoft.Extensions.Configuration/8.0.0?_src=template
-
 <br/>
 https://www.nuget.org/packages/Microsoft.Extensions.Configuration.Json/8.0.0?_src=template
 <br/>
