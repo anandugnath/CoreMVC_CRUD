@@ -24,7 +24,7 @@ In Project, we will learn CRUD Operations in ASP.NET Core 3.1. We will use Store
 <br/>
 <b>Download Database </b>
 <br/>
-<kbd>[Download](https://github.com/anandugnath/CoreMVC_CRUD/blob/main/MVC_Core_CRUD/MVC_CORE_CRUD/Database/DB.sql)</kbd>
+https://github.com/anandugnath/CoreMVC_CRUD/blob/main/MVC_Core_CRUD/MVC_CORE_CRUD/Database/DB.sql
  
 <br/>
 <h3> Install All Necessary Packages From NuGet </h3>
