@@ -27,7 +27,7 @@ In Project, we will learn CRUD Operations in ASP.NET Core 3.1. We will use Store
 https://github.com/anandugnath/CoreMVC_CRUD/blob/main/MVC_Core_CRUD/MVC_CORE_CRUD/Database/DB.sql
  
 <br/>
-<h3> Install All Necessary Packages From NuGet </h3>
+<h3> Install All Necessary Packages From NuGet. </h3>
 </br>
 
 https://www.nuget.org/packages/Microsoft.Extensions.Configuration/8.0.0?_src=template
