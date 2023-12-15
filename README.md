@@ -22,7 +22,7 @@ In Project, we will learn CRUD Operations in ASP.NET Core 3.1. We will use Store
 <br/>
 <b>Startup.cs:</b>  It contains the ConfigureServices() and Configure methods. As the name implies ConfigureServices() method configures all the services which are going to used by the application. Configure method take care of all the request processing pipelines.
 <br/>
-<b>Download Database </b>
+<b>Download Database.</b>
 <br/>
 https://github.com/anandugnath/CoreMVC_CRUD/blob/main/MVC_Core_CRUD/MVC_CORE_CRUD/Database/DB.sql
  
