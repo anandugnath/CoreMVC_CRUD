@@ -36,7 +36,7 @@ namespace DAL
                 throw;
             }
         }
-
+//AddtoDB
         public int AddToDB(string Unit_Name, String Status)
         {
 
@@ -74,7 +74,7 @@ namespace DAL
                 throw ex;
             }
         }
-
+//UpdateToDB
         public bool UpdateToDB(string Unit_Name, String Status, int UnitID)
         {
 
